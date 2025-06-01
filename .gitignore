@@ -1,3 +1,7 @@
 .idea
 .vscode
 .git
+
+.ipynb_checkpoints
+
+.firstNumPy_file.ipynb.layout
