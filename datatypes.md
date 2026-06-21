@@ -11,9 +11,18 @@
 
 -> aacha python mein bhi automatic garbage collector hota hai
 
-### Mutable -> (list, set, dictonary, Bytearray, Array)
-### Immutable -> (integers , floating point number, boolean, strings, tuples, frozen set, bytes)
+---
 
+### Mutable 
+- list, set, dictonary, Bytearray, Array
+---
+### Immutable
+- integers , floating point number, boolean, strings, tuples, frozen set, bytes
+----
+
+- ✅ Number: 1234, 3.1415, 3+4j, 0b111, Decimal(), Fraction()
+
+- ✅ String : 'spam', "Bob's", b'a\x01c', u'sp\xc4m'
 
 - ✅ list: [1, [2, 'three'], 4.5], list(range(10))
 
@@ -25,14 +34,20 @@
 - ✅ Set : set('abc'), {'a', 'b', 'c'} store only unique elements
 
 - ✅ file-> mechanism(to extract data  from files of any type )
+    open('a.txt'), open(r'C:\a.bin', 'wb')
 
 - ✅ boolean : true, false 
-- ✅ None : None -> matlab kuch nhi(kahin se response nhi mila useful hai ) 
+
+- ✅ None : None -> matlab kuch nhi (kahin se response nhi mila useful hai ) 
+
 - ✅ functions, modules, classes
 
 
-## ⭐ Special types(Advance datatypes)
-- ✅ Decorators, Generators, Iterators, MetaProgramming
+### Special types(Advance datatypes)
+- Decorators
+- Generators
+- Iterators
+- MetaProgramming
 
 ---
 # Number 
@@ -49,3 +64,6 @@
 
     -> ( is ) checks same memory location or not 
     -> ( == ) checks Equality Same value
+
+
+Note: Python ke ander koi datatype nhi hota but memory ke ander jo value hn unka datatype store wahin hota hai 

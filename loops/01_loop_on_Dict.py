@@ -19,3 +19,13 @@ print()
 
 for k in myFavSports:
     print(myFavSports[k])
+
+
+
+print()
+
+f = ["f01", "f02", "f03"]
+for v in f:
+    print(v, end=' ')
+
+

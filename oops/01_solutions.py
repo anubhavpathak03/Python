@@ -1,7 +1,7 @@
 class Car:
     total_car = 0
     def __init__(self, brand, model):
-        self.__brand = brand
+        self.__brand = brand #  __brand => this is private
         self.model = model
         Car.total_car += 1
 
@@ -42,7 +42,7 @@ class ElectricCar(Car):
 
 my_car = Car("Toyota", "Corolla")
 
-my_tesla = ElectricCar("Tesla", "Model S", "85kWh")
+my_tesla = ElectricCar("Tesla", "Model   S", "85kWh")
 
 print(my_tesla.fullName())
 
